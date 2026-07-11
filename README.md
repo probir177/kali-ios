@@ -30,6 +30,10 @@ If you have any further questions or require assistance, please feel free to ask
 
 - Portability: Take advantage of the portability of iOS devices to perform security assessments and investigations wherever you go.
 
+## Tools
+
+Looking for what you can run? See the **[Top 100 Security Tools for Kali iOS](TOOLS.md)** — a categorized reference of the top penetration-testing and security tools, with quick-start commands and notes on which ones work within the iOS/iSH environment.
+
 ## Getting Started
 
 To use Kali iOS, follow these steps:
