@@ -30,6 +30,29 @@ If you have any further questions or require assistance, please feel free to ask
 
 - Portability: Take advantage of the portability of iOS devices to perform security assessments and investigations wherever you go.
 
+## AI Assistant
+
+Kali iOS ships with an **[all-in-one AI assistant](AI_ASSISTANT.md)** — a single
+self-contained script (`kali-ai.sh`) you talk to in plain language. Describe your
+goal and it maps it to the right tool, gives you the command, and (with your
+authorization) runs it.
+
+- Works **fully offline** with a built-in advisor — no key required.
+- **Upgrades to real conversational AI** when you add a Claude API key.
+- **Authorization check** before any active tool runs; iOS/iSH limits are built in.
+
+```sh
+chmod +x kali-ai.sh
+./kali-ai.sh                                  # interactive menu
+./kali-ai.sh ask "scan my server for open ports"
+```
+
+See **[AI_ASSISTANT.md](AI_ASSISTANT.md)** for full setup and usage.
+
+## Tools
+
+Looking for what you can run? See the **[Top 100 Security Tools for Kali iOS](TOOLS.md)** — a categorized reference of the top penetration-testing and security tools, with quick-start commands and notes on which ones work within the iOS/iSH environment.
+
 ## Getting Started
 
 To use Kali iOS, follow these steps:

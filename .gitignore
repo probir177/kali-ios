@@ -1,0 +1,7 @@
+# Local assistant config (contains your Claude API key — never commit)
+.kali-ai/
+*.kali-ai-config
+
+# OS / editor cruft
+.DS_Store
+*.swp
